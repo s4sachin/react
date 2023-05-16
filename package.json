@@ -1,0 +1,37 @@
+{
+	"name": "namaste-react",
+	"version": "1.0.0",
+	"description": "react learning journey with Akshay Saini's Namaste React course",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/s4sachin/react.git"
+	},
+	"keywords": [
+		"react",
+		"redux"
+	],
+	"author": "sachinPurohit",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/s4sachin/react/issues"
+	},
+	"homepage": "https://github.com/s4sachin/react#readme",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"browserList": [
+		"last 10 chrome versions"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.21.8",
+		"parcel": "^2.8.3",
+		"process": "^0.11.10"
+	}
+}
